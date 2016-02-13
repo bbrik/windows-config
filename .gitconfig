@@ -1,0 +1,17 @@
+[core]
+	autocrlf = True
+	editor = \"C:/Program Files (x86)/GitExtensions/GitExtensions.exe\" fileeditor
+[user]
+	name = Bernardo Brik
+	email = bernardobrik@gmail.com
+[alias]
+	co = checkout
+	st = status -sb
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %Cblue<%an>%Creset' --abbrev-commit --date=relative --all
+	mnf = merge --no-ff
+[merge]
+	tool = kdiff3
+[diff]
+	guitool = kdiff3
+[push]
+	default = simple
