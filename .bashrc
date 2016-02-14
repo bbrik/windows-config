@@ -1,5 +1,5 @@
 
-alias dir='ls -lah'
+alias dir='ls -lahF --group-directories-first'
 alias config='`which git` --git-dir=$HOME/.myconf/ --work-tree=$HOME'
 
 
